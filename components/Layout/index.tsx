@@ -2,11 +2,14 @@ import React from "react";
 import Head from "next/head";
 import Navbar from "./Navbar";
 import { Box, makeStyles, Theme, createStyles } from "@material-ui/core";
+import Footer from "./Footer";
 
 const useStyles = makeStyles((theme: Theme) =>
   createStyles({
     root: {},
-    body: {},
+    body: {
+      minHeight: "100vh",
+    },
     scrollTop: {
       position: "fixed",
       bottom: theme.spacing(2),
@@ -31,6 +34,7 @@ const Layout: React.FC<LayoutProps> = ({ title, children }) => {
       </Head>
       <Navbar />
       <Box className={classes.body}>{children}</Box>
+      <Footer />
     </Box>
   );
 };

@@ -1,0 +1,5 @@
+.next
+src/generated
+yarn.lock
+graphql.schema.json
+node_modules

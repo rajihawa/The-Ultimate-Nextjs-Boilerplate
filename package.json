@@ -1,0 +1,43 @@
+{
+  "name": "the_ultimate_nextjs_boilerplate",
+  "version": "0.0.1",
+  "description": "Nextjs boilerpalte that will save you a lot of time when starting a new project, I like to call it The Ultimate Boilerplate",
+  "main": "next.js",
+  "author": "Raji Hawa",
+  "license": "MIT",
+  "scripts": {
+    "start": "next start",
+    "build": "next build",
+    "dev": "next dev",
+    "codegen": "graphql-codegen --config codegen.yml"
+  },
+  "devDependencies": {
+    "@graphql-codegen/cli": "1.13.3",
+    "@graphql-codegen/introspection": "1.13.3",
+    "@graphql-codegen/typescript": "1.13.3",
+    "@graphql-codegen/typescript-operations": "1.13.3",
+    "@graphql-codegen/typescript-react-apollo": "1.13.3",
+    "@types/cookie": "^0.3.3",
+    "@types/node": "^12.12.31",
+    "@types/react": "^16.9.25",
+    "babel-plugin-graphql-tag": "^2.5.0",
+    "graphql": "^15.0.0",
+    "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "@apollo/react-hooks": "^3.1.5",
+    "@apollo/react-ssr": "^3.1.5",
+    "@material-ui/core": "^4.9.7",
+    "@material-ui/icons": "^4.9.1",
+    "@material-ui/lab": "^4.0.0-alpha.46",
+    "apollo-boost": "^0.4.7",
+    "apollo-link-context": "^1.0.20",
+    "isomorphic-unfetch": "^3.0.0",
+    "jss": "^10.0.0",
+    "next": "^9.3.1",
+    "prop-types": "^15.6.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-hook-form": "^5.5.3"
+  }
+}

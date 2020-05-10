@@ -4,7 +4,7 @@
   "description": "Nextjs boilerpalte that will save you a lot of time when starting a new project, I like to call it The Ultimate Boilerplate",
   "main": "next.js",
   "author": "Raji Hawa",
-  "license": "MIT",
+  "license": "",
   "scripts": {
     "start": "next start",
     "build": "next build",

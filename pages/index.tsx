@@ -5,7 +5,6 @@ import { NextPage } from "next";
 import Layout from "../components/Layout";
 import Input from "../components/Inputs/Input";
 import { LoginData, loginRequest } from "../lib/requests";
-import { mustNotBeLogged } from "../components/auth/withAuth";
 
 const LoginPage: NextPage = () => {
   const { register, handleSubmit, errors, setError } = useForm();
@@ -67,4 +66,4 @@ const LoginPage: NextPage = () => {
   );
 };
 
-export default mustNotBeLogged(LoginPage);
+export default LoginPage;

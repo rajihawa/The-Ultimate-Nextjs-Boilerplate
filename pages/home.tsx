@@ -1,6 +1,5 @@
 import React, { useContext } from "react";
 import { NextPage } from "next";
-import { mustBeLogged } from "../components/auth/withAuth";
 import Layout from "../components/Layout";
 import { Container, Box, Typography } from "@material-ui/core";
 import { AuthControl } from "../context/authControl";
@@ -24,4 +23,4 @@ const HomePage: NextPage = () => {
   );
 };
 
-export default mustBeLogged(HomePage);
+export default HomePage;
